@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
-	package="de.schildbach.wallet.litecoin"
+	package="de.schildbach.wallet.novuscoin"
 	android:installLocation="auto"
 	android:versionCode="10019"
 	android:versionName="1.099" >
@@ -122,16 +122,16 @@
 
 		<provider
 			android:name=".AddressBookProvider"
-			android:authorities="de.schildbach.wallet.litecoin.address_book"
+			android:authorities="de.schildbach.wallet.novuscoin.address_book"
 			android:exported="false" />
 		<provider
 			android:name=".ExchangeRatesProvider"
-			android:authorities="de.schildbach.wallet.litecoin.exchange_rates"
+			android:authorities="de.schildbach.wallet.novuscoin.exchange_rates"
 			android:exported="false" />
 
 		<receiver
 			android:name=".WalletBalanceWidgetProvider"
-			android:label="Litecoin Wallet Balance" >
+			android:label="novuscoin Wallet Balance" >
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>
