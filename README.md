@@ -1,4 +1,4 @@
-Welcome to _novuscoin Wallet_, a standalone novuscoin payment app for your Android device!
+Welcome to _Novuscoin Wallet_, a standalone novuscoin payment app for your Android device!
 
 This project contains several sub-projects:
 
